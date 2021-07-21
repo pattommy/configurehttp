@@ -8,4 +8,5 @@
    - name: Start http
      service:
              name: httpd
-             state: started      
+             state: started  
+             permanent: yes
