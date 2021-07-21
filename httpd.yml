@@ -5,3 +5,7 @@
      yum: 
        name: httpd
        state: latest
+   - name: Start http
+     service:
+             name: httpd
+             state: started      
